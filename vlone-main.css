@@ -17,6 +17,8 @@ body{
     z-index: 2;
 }
 
+
+
 .Directory{
 position: absolute;
 left: 116px;
@@ -28,7 +30,14 @@ font-weight: 800;
 font-size: 18px;
 
 color: #000000;
+transition: 0.5s;
 }
+
+.Directory:hover{
+    opacity: 70%;
+}
+
+
 
 .Discounts{
 position: absolute;
@@ -41,7 +50,14 @@ font-weight: 800;
 font-size: 18px;
 
 color: #000000;
+transition: 0.5s;
 }
+
+.Discounts:hover{
+    opacity: 70%;
+}
+
+
 
 .Delivery{
 position: absolute;
@@ -54,7 +70,14 @@ font-weight: 800;
 font-size: 18px;
 
 color: #000000;
+transition: 0.5s;
 }
+
+.Delivery:hover{
+    opacity: 70%;
+}
+
+
 
 .News{
 position: absolute;
@@ -67,8 +90,14 @@ font-weight: 800;
 font-size: 18px;
 
 color: #000000;
-
+transition: 0.5s;
 }
+
+.News:hover{
+    opacity: 70%;
+}
+
+
 
 .logo{
 top: 60px;
@@ -77,7 +106,14 @@ left: 935px;
 position: absolute;
 width: 49px;
 height: 64px;
+transition: 0.5s;
 }
+
+.logo:hover{
+    opacity: 70%;
+}
+
+
 
 .search{
 position: absolute;
@@ -92,6 +128,8 @@ color: white;
 text-align: center;
 font-size: 20px;
 }
+
+
 
 .line-shapka{
 position: absolute;
@@ -130,6 +168,16 @@ width: 568px;
 height: 478px;
 }
 
+.neverbrokeagain-img-text{
+transition: 0.5s;
+}
+
+.neverbrokeagain-img-text:hover{
+opacity: 85%;
+}
+
+
+
 .t-shirt_for_novelty_juicewrld{
 position: absolute;
 top: 301px;
@@ -138,12 +186,30 @@ width: 533px;
 height: 494px;
 }
 
+.juicewrld-img-text{
+transition: 0.5s;
+}
+    
+.juicewrld-img-text:hover{
+opacity: 85%;
+}
+
+
+
 .t-shirt_for_novelty_sakura{
 position: absolute;
 top: 286px;
 left: 1274px;
 width: 529px;
 height: 524px
+}
+
+.sakura-img-text{
+transition: 0.5s;
+}
+    
+.sakura-img-text:hover{
+opacity: 85%;
 }
 
 
@@ -256,7 +322,7 @@ align-items: center;
 text-align: center;
 background-color: #000000;
 color: white;
-transition: 1s;
+transition: 0.5s;
 }
 
 .button_neverbrokeagain:hover{
@@ -279,7 +345,7 @@ align-items: center;
 text-align: center;
 background-color: #000000;
 color: white;
-transition: 1s;
+transition: 0.5s;
 }
 
 .button_juicewrld:hover{
@@ -302,7 +368,7 @@ align-items: center;
 text-align: center;
 background-color: #000000;
 color: white;
-transition: 1s;
+transition: 0.5s;
 }
 
 .button_rodman:hover{
@@ -325,7 +391,7 @@ align-items: center;
 text-align: center;
 background-color: #000000;
 color: white;
-transition: 1s;
+transition: 0.5s;
 }
 
 .button_palmangels:hover{
@@ -348,7 +414,7 @@ align-items: center;
 text-align: center;
 background-color: #000000;
 color: white;
-transition: 1s;
+transition: 0.5s;
 }
 
 .button_neighborhood:hover{
